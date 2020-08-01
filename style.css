@@ -1,0 +1,99 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: #E3E3E3;
+}
+
+.card-body p {
+	color: #757575;
+}
+
+.fa1 {
+	color: #009688;
+}
+
+.card-body h4 {
+	color: #757575;
+}
+
+.skills{
+	margin-top: 25px;
+}
+
+.text1 {
+	color: #757575;
+}
+
+.card2{
+	margin-top: 30px;
+}
+
+.fotter1 {
+	background-color: #009688;
+}
+
+.fa-2x{
+	color: white;
+
+}
+
+/*///////////////////resposive///////////////////////*/
+
+@media(min-width: 992px){
+
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+        .display-4{
+        	font-size: 30px;
+        }
+.card2{
+		margin-top: 0px;
+	}
+
+	.footer{
+		margin-top: 0px;
+	} 
+	.skills{
+	margin-top: 0px;
+}
+
+}
+
+@media(min-width: 575px) and (max-width: 767px){
+	.card2{
+		margin-top: 0px;
+	}
+
+	.footer{
+		margin-top: 0px;
+	}
+            
+
+}
+
+@media(min-width: 509px) and (max-width: 574px){
+	.card2{
+		margin-top: 0px;
+	}
+
+	.footer{
+		margin-top: 0px;
+	}
+
+}
+
+
+@media(max-width: 508px){
+	.card2{
+		margin-top: 0px;
+	}
+
+	.footer{
+		margin-top: 0px;
+	}
+}
